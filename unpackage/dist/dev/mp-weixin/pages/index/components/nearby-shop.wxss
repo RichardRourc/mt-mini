@@ -24,13 +24,14 @@
 /* 垂直间距 */
 /* 透明度 */
 /* 文章场景相关 */
+/* 很小的字 */
 .nearby-shop {
   width: 96%;
   margin: auto;
 }
 .nearby-shop__title {
   font-weight: 600;
-  margin: 32rpx 0rpx;
+  margin-top: 32rpx;
 }
 .nearby-shop__tab {
   display: -webkit-box;
@@ -41,7 +42,7 @@
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin: 32rpx 0rpx;
+  padding: 32rpx 0rpx;
   background-color: #fff;
 }
 .nearby-shop__tab__list {

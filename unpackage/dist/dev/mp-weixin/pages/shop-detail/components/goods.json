@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "food-type-nav": "/pages/shop-detail/components/food-type-nav",
+    "shopcar": "/pages/shop-detail/components/shopcar"
+  },
+  "component": true
+}

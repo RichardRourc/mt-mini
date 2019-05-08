@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "aaasss",
+  "usingComponents": {
+    "shop-head": "/pages/shop-detail/components/shop-head",
+    "shop-nav": "/pages/shop-detail/components/nav",
+    "goods": "/pages/shop-detail/components/goods"
+  }
+}

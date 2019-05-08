@@ -2,11 +2,13 @@
   <view class="content">
     <location :location='location'></location>
     <search :searchText='searchText' :topSearch='topSearch'></search>
-    <indexSwiper :foodType='foodType'></indexSwiper>
-    <foodRecommend :foodType='foodType'></foodRecommend>
-    <foodBanner></foodBanner>
-    <foodBrand :testData1='testData1'></foodBrand>
-    <nearbyShop></nearbyShop>
+    <index-swiper :foodType='foodType'></index-swiper>
+    <food-recommend :foodType='foodType'/>
+    <food-banner/>
+    <food-brand :testData1='testData1'/>
+    <nearby-shop/>
+    <div @click="a">1221212</div>
+
     
 
   </view>
@@ -23,9 +25,11 @@
   function a() {
     let arr = [];
     for ( var i = 0; i<10; i++ ){
-      arr[i] = {} ;
-      arr[i].imgsrc = '';
-      arr[i].text = '1';
+      const obj = {
+        imgsrc: '',
+        text: i
+      }
+      arr[i] = obj;
     }
     console.log(arr)
     return arr ; 
@@ -45,18 +49,20 @@
       };
     },
     components: {
-      'indexSwiper': indexSwiper,
-      'foodRecommend': foodRecommend,
-      'foodBanner': foodBanner,
-      'foodBrand': foodBrand,
-      'nearbyShop': nearbyShop,
+      'index-swiper': indexSwiper,
+      'food-recommend': foodRecommend,
+      'food-banner': foodBanner,
+      'food-brand': foodBrand,
+      'nearby-shop': nearbyShop,
     },
     onLoad() {
       // console.log(this)
     },
     methods: {
       a(e) {
-        console.log(e.target);
+        uni.navigateTo({
+        	url: "../a/index"
+        })
       },
     },
     onPageScroll(res){
@@ -88,7 +94,11 @@
 
 <style lang='scss'>
   @import url("../../static/css/index.css");
-
+  .content{
+    // display: flex;
+    // justify-content: center;
+    padding: 12upx;
+  }
   .fl{
     float: left;
   }
@@ -96,7 +106,5 @@
     float: right;
   }
   
-//  .nearby-shop__tab{
-//     font-size: $uni-font-size-base;
-//   } 
+
 </style>

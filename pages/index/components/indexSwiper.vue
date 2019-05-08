@@ -21,12 +21,20 @@
 
 <script>
     export default {
-        props:['foodType'],
+        props: {
+            foodType: {
+                type: Array,
+                required: true,
+            }
+        },
     }
 </script>
 
 <style>
     .food-type{
+        /*#ifdef MP-ALIPAY*/  
+        height: 300upx !important;
+        /*#endif*/
         position:relative;
         display:flex;
         flex-wrap:wrap;

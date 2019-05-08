@@ -1,0 +1,1 @@
+<view class="_div" bind:__l="__l"><shop-head></shop-head><shop-nav></shop-nav><goods type="{{type}}" foodDatas="{{foodDatas}}"></goods></view>

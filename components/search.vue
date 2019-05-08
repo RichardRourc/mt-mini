@@ -22,8 +22,8 @@ export default {
 
 <style>
 .search {
-  width: 96%;
-  margin: auto;
+  /* width: 96%;
+  margin: auto; */
   padding: 12upx 0upx;
   background-color: white;
 }

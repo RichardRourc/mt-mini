@@ -9,33 +9,44 @@
         <div class="nearby-shop__tab__list">减配送费</div>
         <div class="filter fr">筛选</div>
       </div>
-      <div class="nearby-shop__list">
-        <div class="nearby-shop__list--logo">
-          <img class="nearby-shop__list--left-image" src="" alt="">
-        </div>
-        <div class="nearby-shop__list--info">
-          <div class="nearby-shop__list--info-title">
-
-          </div>
-          <div class="nearby-shop__list--info-message">
-
-          </div>
-          <div class="nearby-shop__list--info-pric">
-
-          </div>
-          <div class="nearby-shop__list--info-tag">
-
-          </div>
-          <div class="nearby-shop__list--info-discounts">
-            
-          </div>
-        </div>
-      </div>
+      <nearby-shop-item
+        :name="name"
+        :score="score"
+        :sell="sell"
+        :priceStart="priceStart"
+        :priceDelivery="priceDelivery"
+        :priceAvg="priceAvg"
+      />
+      <nearby-shop-item
+        :name="name"
+        :score="score"
+        :sell="sell"
+        :priceStart="priceStart"
+        :priceDelivery="priceDelivery"
+        :priceAvg="priceAvg"
+      />
     </section>
   </div>
 </template>
 
 <script>
+  import nearbyShopItem from "./nearby-shop-item.vue";
+
+  export default {
+    data () {
+      return {
+        name: '麦当劳',
+        score: 4.6,
+        sell: 800,
+        priceStart: 10,
+        priceDelivery: 20,
+        priceAvg: 30,
+      }
+    },
+    components: {
+      'nearby-shop-item':nearbyShopItem,
+      },
+  }
 </script>
 
 <style lang='scss'>
@@ -45,16 +56,16 @@
 }
 .nearby-shop__title {
   font-weight: 600;
-  margin: 32upx 0upx;
+  margin-top: 32upx;
 }
 // $uni-spacing-row-base: 20upx;
 .nearby-shop__tab {
-	display: flex;
+  display: flex;
   justify-content: space-between;
-  margin: 32upx 0upx;
+  padding: 32upx 0upx;
   background-color: #fff;
 }
-	
+
 .nearby-shop__tab__list {
   font-size: $uni-font-size-base;
   margin-right: 48upx;
@@ -77,4 +88,7 @@
   right: -16upx;
   top: 16upx;
 }
+
+
 </style>
+

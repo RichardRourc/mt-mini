@@ -75,3 +75,30 @@ $uni-font-size-subtitle:36upx;
 $uni-color-paragraph: #3F536E; // 文章段落颜色
 $uni-font-size-paragraph:30upx;
 
+/* 很小的字 */
+$font-size-min: 20upx;
+@mixin line {
+  position: absolute;
+  right: -8upx;
+  top: 6upx;
+  content: "";
+  display: block;
+  border-left: 1px solid #fff;
+  height: 20upx;
+}
+@mixin discount {
+  height:20upx;
+		padding: 4upx 4upx;
+		margin-right: 8upx;
+		background-color: #f66;
+		color:white;
+		font-size:18upx;
+		line-height:20upx;
+		text-align:center;
+		border: 1px solid #f66;
+}
+@mixin overText {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}

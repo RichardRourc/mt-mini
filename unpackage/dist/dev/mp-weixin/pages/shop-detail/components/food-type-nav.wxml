@@ -1,0 +1,1 @@
+<scroll-view class="type" scroll-y bind:__l="__l"><block wx:for="{{type1}}" wx:for-item="item" wx:for-index="idx" wx:key="idx"><view class="type--item type--item--on _div">{{item}}</view></block></scroll-view>

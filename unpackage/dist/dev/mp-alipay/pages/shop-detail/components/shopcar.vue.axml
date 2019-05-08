@@ -1,0 +1,1 @@
+<template name="18cfc749"><view class="_footer shopcar {{ h[ 0 ].rcl }}"><view class="_div delivery--left"><view class="_i icon-image"></view><view class="_div other-money">另需配送費x元</view></view><view class="_div delivery--right"><view class="_div money--start">x元起送</view></view></view></template>

@@ -8059,10 +8059,10 @@ module.exports = g;
 
 /***/ }),
 
-/***/ "D:\\mt\\mt-mini\\pages.json":
-/*!********************************!*\
-  !*** D:/mt/mt-mini/pages.json ***!
-  \********************************/
+/***/ "D:\\projects\\meituan\\pages.json":
+/*!**************************************!*\
+  !*** D:/projects/meituan/pages.json ***!
+  \**************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 

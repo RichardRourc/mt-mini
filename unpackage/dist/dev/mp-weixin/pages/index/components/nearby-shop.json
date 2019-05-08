@@ -1,4 +1,6 @@
 {
-  "usingComponents": {},
+  "usingComponents": {
+    "nearby-shop-item": "/pages/index/components/nearby-shop-item"
+  },
   "component": true
 }

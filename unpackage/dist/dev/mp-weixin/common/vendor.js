@@ -7070,28 +7070,28 @@ module.exports = g;
 
 /***/ }),
 
-/***/ "D:\\mt\\mt-mini\\main.js":
-/*!*****************************!*\
-  !*** D:/mt/mt-mini/main.js ***!
-  \*****************************/
+/***/ "D:\\projects\\meituan\\main.js":
+/*!***********************************!*\
+  !*** D:/projects/meituan/main.js ***!
+  \***********************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(createApp) {__webpack_require__(/*! uni-pages */ "D:\\mt\\mt-mini\\pages.json");
+/* WEBPACK VAR INJECTION */(function(createApp) {__webpack_require__(/*! uni-pages */ "D:\\projects\\meituan\\pages.json");
 var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
-var _App = _interopRequireDefault(__webpack_require__(/*! ./App */ "D:\\mt\\mt-mini\\App.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}function _objectSpread(target) {for (var i = 1; i < arguments.length; i++) {var source = arguments[i] != null ? arguments[i] : {};var ownKeys = Object.keys(source);if (typeof Object.getOwnPropertySymbols === 'function') {ownKeys = ownKeys.concat(Object.getOwnPropertySymbols(source).filter(function (sym) {return Object.getOwnPropertyDescriptor(source, sym).enumerable;}));}ownKeys.forEach(function (key) {_defineProperty(target, key, source[key]);});}return target;}function _defineProperty(obj, key, value) {if (key in obj) {Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true });} else {obj[key] = value;}return obj;}
+var _App = _interopRequireDefault(__webpack_require__(/*! ./App */ "D:\\projects\\meituan\\App.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}function _objectSpread(target) {for (var i = 1; i < arguments.length; i++) {var source = arguments[i] != null ? arguments[i] : {};var ownKeys = Object.keys(source);if (typeof Object.getOwnPropertySymbols === 'function') {ownKeys = ownKeys.concat(Object.getOwnPropertySymbols(source).filter(function (sym) {return Object.getOwnPropertyDescriptor(source, sym).enumerable;}));}ownKeys.forEach(function (key) {_defineProperty(target, key, source[key]);});}return target;}function _defineProperty(obj, key, value) {if (key in obj) {Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true });} else {obj[key] = value;}return obj;}
 
 _vue.default.config.productionTip = false;
 
-_App.default.mpType = 'app';var location = function location() {return __webpack_require__.e(/*! import() | components/location */ "components/location").then(__webpack_require__.bind(null, /*! ./components/location.vue */ "D:\\mt\\mt-mini\\components\\location.vue"));};var search = function search() {return __webpack_require__.e(/*! import() | components/search */ "components/search").then(__webpack_require__.bind(null, /*! ./components/search.vue */ "D:\\mt\\mt-mini\\components\\search.vue"));};var fullRedution = function fullRedution() {return __webpack_require__.e(/*! import() | components/full-redution */ "components/full-redution").then(__webpack_require__.bind(null, /*! ./components/full-redution.vue */ "D:\\mt\\mt-mini\\components\\full-redution.vue"));};
+_App.default.mpType = 'app';var location = function location() {return __webpack_require__.e(/*! import() | components/location */ "components/location").then(__webpack_require__.bind(null, /*! ./components/location.vue */ "D:\\projects\\meituan\\components\\location.vue"));};var search = function search() {return __webpack_require__.e(/*! import() | components/search */ "components/search").then(__webpack_require__.bind(null, /*! ./components/search.vue */ "D:\\projects\\meituan\\components\\search.vue"));};var fullRedution = function fullRedution() {return __webpack_require__.e(/*! import() | components/full-redution */ "components/full-redution").then(__webpack_require__.bind(null, /*! ./components/full-redution.vue */ "D:\\projects\\meituan\\components\\full-redution.vue"));};
 
 
 
 
 _vue.default.component('location', location);
 _vue.default.component('search', search);
-_vue.default.component('fullRedution', fullRedution);
+_vue.default.component('full-redution', fullRedution);
 
 var app = new _vue.default(_objectSpread({},
 _App.default));
@@ -7102,27 +7102,61 @@ createApp(app).$mount();
 
 /***/ }),
 
-/***/ "D:\\mt\\mt-mini\\main.js?{\"page\":\"pages%2Findex%2Findex\"}":
-/*!**************************************************************!*\
-  !*** D:/mt/mt-mini/main.js?{"page":"pages%2Findex%2Findex"} ***!
-  \**************************************************************/
+/***/ "D:\\projects\\meituan\\main.js?{\"page\":\"pages%2Fa%2Findex\"}":
+/*!****************************************************************!*\
+  !*** D:/projects/meituan/main.js?{"page":"pages%2Fa%2Findex"} ***!
+  \****************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ "D:\\mt\\mt-mini\\pages.json");
+/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ "D:\\projects\\meituan\\pages.json");
 
 var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
-var _index = _interopRequireDefault(__webpack_require__(/*! ./pages/index/index.vue */ "D:\\mt\\mt-mini\\pages\\index\\index.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+var _index = _interopRequireDefault(__webpack_require__(/*! ./pages/a/index.vue */ "D:\\projects\\meituan\\pages\\a\\index.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
 createPage(_index.default);
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ "./node_modules/@dcloudio/uni-mp-weixin/dist/index.js")["createPage"]))
 
 /***/ }),
 
-/***/ "D:\\mt\\mt-mini\\pages.json":
-/*!********************************!*\
-  !*** D:/mt/mt-mini/pages.json ***!
-  \********************************/
+/***/ "D:\\projects\\meituan\\main.js?{\"page\":\"pages%2Findex%2Findex\"}":
+/*!********************************************************************!*\
+  !*** D:/projects/meituan/main.js?{"page":"pages%2Findex%2Findex"} ***!
+  \********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ "D:\\projects\\meituan\\pages.json");
+
+var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
+var _index = _interopRequireDefault(__webpack_require__(/*! ./pages/index/index.vue */ "D:\\projects\\meituan\\pages\\index\\index.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+createPage(_index.default);
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ "./node_modules/@dcloudio/uni-mp-weixin/dist/index.js")["createPage"]))
+
+/***/ }),
+
+/***/ "D:\\projects\\meituan\\main.js?{\"page\":\"pages%2Fshop-detail%2Findex\"}":
+/*!**************************************************************************!*\
+  !*** D:/projects/meituan/main.js?{"page":"pages%2Fshop-detail%2Findex"} ***!
+  \**************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ "D:\\projects\\meituan\\pages.json");
+
+var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
+var _index = _interopRequireDefault(__webpack_require__(/*! ./pages/shop-detail/index.vue */ "D:\\projects\\meituan\\pages\\shop-detail\\index.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+createPage(_index.default);
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ "./node_modules/@dcloudio/uni-mp-weixin/dist/index.js")["createPage"]))
+
+/***/ }),
+
+/***/ "D:\\projects\\meituan\\pages.json":
+/*!**************************************!*\
+  !*** D:/projects/meituan/pages.json ***!
+  \**************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -7131,10 +7165,10 @@ createPage(_index.default);
 
 /***/ }),
 
-/***/ "D:\\mt\\mt-mini\\static\\logo.png":
-/*!*************************************!*\
-  !*** D:/mt/mt-mini/static/logo.png ***!
-  \*************************************/
+/***/ "D:\\projects\\meituan\\static\\logo.png":
+/*!*******************************************!*\
+  !*** D:/projects/meituan/static/logo.png ***!
+  \*******************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 

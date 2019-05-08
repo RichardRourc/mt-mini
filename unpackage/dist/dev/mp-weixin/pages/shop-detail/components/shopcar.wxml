@@ -1,0 +1,1 @@
+<view class="shopcar _footer" bind:__l="__l"><view class="delivery--left _div"><view class="icon-image _i"></view><view class="other-money _div">另需配送費x元</view></view><view class="delivery--right _div"><view class="money--start _div">x元起送</view></view></view>

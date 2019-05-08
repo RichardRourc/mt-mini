@@ -5,6 +5,18 @@
 			"style": {
 				"navigationBarTitleText": "美团外卖"
 			}
+		},
+		{
+			"path": "pages/shop-detail/index",
+			"style": {
+				"navigationBarTitleText": "aaasss"
+			}
+		},
+		{
+			"path": "pages/a/index",
+			"style": {
+				"navigationBarTitleText": "aaa"
+			}
 		}
 	],
 	"globalStyle": {

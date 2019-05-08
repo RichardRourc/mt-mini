@@ -17,7 +17,7 @@
 				  <div class="image--wrap">
 					<image class="shop" src="../../../static/logo.png"/>
 					<!-- <span class="quan" >{{max}}减{{decrease}}</span> -->
-					<fullRedution />
+					<full-redution />
 				  </div>
 				</view>
 				<view class="food-name">吃肉</view>

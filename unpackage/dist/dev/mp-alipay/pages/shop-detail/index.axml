@@ -1,0 +1,2 @@
+<import src="/pages/shop-detail/components/shop-head.vue.axml"/><import src="/pages/shop-detail/components/nav.vue.axml"/><import src="/pages/shop-detail/components/goods.vue.axml"/><template name="786afa2e"><view class="_div {{ h[ 0 ].rcl }}"><template is="21052dc2" data="{{ ...$root[ cp + 0 ], $root, _t: _t || '' }}" /><template is="264ff664" data="{{ ...$root[ cp + 1 ], $root, _t: _t || '' }}" /><template is="168db441" data="{{ ...$root[ cp + 2 ], $root, _t: _t || '' }}" /></view></template>
+<template is="786afa2e" data="{{ ...$root['0'], $root }}"/>

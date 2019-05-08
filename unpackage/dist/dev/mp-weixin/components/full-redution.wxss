@@ -1,18 +1,17 @@
 
-.quan{
-	position:relative;
-	bottom:0rpx;
-	left:92rpx;
-	/* width:40upx; */
-	height:20rpx;
-	padding: 8rpx 8rpx;
-	margin-left: 8rpx;
-	background-color: #f66;
-	color:white;
-	font-size:18rpx;
-	line-height:20rpx;
-	text-align:center;
-	border: 1px solid #f66;
+.quan {
+  position: relative;
+  bottom: 0rpx;
+  left: 92rpx;
+  /* width:40upx; */
+  height: 20rpx;
+  padding: 4rpx 4rpx;
+  margin-left: 8rpx;
+  background-color: #f66;
+  color: white;
+  font-size: 18rpx;
+  line-height: 20rpx;
+  text-align: center;
+  border: 1px solid #f66;
 }
-
 

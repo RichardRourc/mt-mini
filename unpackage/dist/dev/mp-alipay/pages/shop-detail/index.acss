@@ -1,0 +1,404 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+/* 很小的字 */
+.shop-head {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #000;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 24rpx;
+  color: white;
+}
+.logo {
+  width: 17%;
+  height: 111rpx;
+  background-color: #f66;
+}
+.shop__info {
+  display: inline-block;
+  width: 75%;
+  height: 72rpx;
+  padding: 4rpx 0rpx;
+  font-size: 20rpx;
+}
+.shop__info--top {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.message {
+  width: 300rpx;
+}
+.delivery {
+  margin-right: 10px;
+  position: relative;
+}
+.delivery:after {
+  position: absolute;
+  right: -12rpx;
+  top: 6rpx;
+  content: "";
+  display: block;
+  border-left: 1px solid #fff;
+  height: 20rpx;
+}
+.focus {
+  background-color: #f66;
+  margin-top: 8rpx;
+  width: 66rpx;
+  height: 43rpx;
+}
+.shop__info--bottom {
+  position: relative;
+}
+.more {
+  position: absolute;
+  right: 0rpx;
+  bottom: 0rpx;
+}
+.board {
+  margin-bottom: 8rpx;
+  white-space: nowrap;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis;
+  overflow: hidden;
+}
+.quan {
+  height: 20rpx;
+  padding: 4rpx 4rpx;
+  margin-right: 8rpx;
+  background-color: #f66;
+  color: white;
+  font-size: 18rpx;
+  line-height: 20rpx;
+  text-align: center;
+  border: 1px solid #f66;
+}
+
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+/* 很小的字 */
+.tab {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 12rpx;
+  padding-left: 24rpx;
+  font-size: 28rpx;
+  border-bottom: 3rpx solid #666;
+}
+.nav__item {
+  display: inline-block;
+  padding: 8rpx 0rpx;
+  margin-right: 48rpx;
+}
+.nav__item--on {
+  font-weight: bold;
+  border-bottom: 1px solid #aca;
+}
+.search {
+  position: relative;
+  background-color: #ccc;
+  border-radius: 24rpx;
+  padding: 8rpx;
+  text-indent: 48rpx;
+}
+.search__image {
+  position: absolute;
+  width: 24rpx;
+  height: 24rpx;
+  background-color: #f66;
+  left: 12rpx;
+  top: 15rpx;
+}
+
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+/* 很小的字 */
+.type {
+  display: inline-block;
+  vertical-align: top;
+  overflow: hidden;
+  width: 23%;
+  height: 872rpx;
+}
+.type--item {
+  padding: 8rpx 16rpx;
+  font-size: 28rpx;
+  background-color: #ccc;
+  color: #666;
+  text-align: center;
+  vertical-align: middle;
+}
+.type--item--on {
+  background-color: #fff;
+  font-weight: bold;
+  position: relative;
+}
+.type--item--on::after {
+  position: absolute;
+  content: "";
+  display: block;
+  border-left: 2px solid #adc;
+  top: 24rpx;
+  left: 8rpx;
+  height: 8rpx;
+}
+
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+/* 很小的字 */
+.shopcar {
+  position: fixed;
+  bottom: 0rpx;
+  z-index: 2;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-align-content: center;
+      -ms-flex-line-pack: center;
+          align-content: center;
+  height: 100rpx;
+  width: 100%;
+  background-color: #000;
+  color: #666;
+}
+.delivery--left {
+  text-align: center;
+  padding: 24rpx 0rpx;
+}
+.icon-image {
+  display: inline-block;
+  width: 24rpx;
+  height: 46rpx;
+  background-color: #666;
+  margin-left: 20rpx;
+  margin-right: 30rpx;
+  vertical-align: middle;
+}
+.other-money {
+  display: inline-block;
+}
+.money--start {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  font-weight: bold;
+  padding: 24rpx 24rpx;
+}
+
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+/* 很小的字 */
+.foods {
+  position: relative;
+}
+.foods--list {
+  position: relative;
+  display: inline-block;
+  width: 69%;
+}
+.type--fix {
+  padding: 8rpx 16rpx;
+  color: #666;
+  font-size: 28rpx;
+}
+.foods--show {
+  display: inline-block;
+  height: 913rpx;
+  overflow: hidden;
+  width: 115%;
+}
+.foods--show__item__list {
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 24rpx;
+  width: 95%;
+}
+.foods--detail__image {
+  background-color: #f66;
+  width: 30%;
+  height: 80rpx;
+}
+.foods__info {
+  width: 68%;
+  font-size: 24rpx;
+}
+.foods--name {
+  font-size: 28rpx;
+  font-weight: bold;
+}
+.foods__price {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 28rpx;
+  color: #f00;
+}
+.foods__plus {
+  font-size: 32rpx;
+  color: #000;
+  background-color: #bbb;
+  border-radius: 24rpx;
+  padding: 8rpx 12rpx;
+}
+

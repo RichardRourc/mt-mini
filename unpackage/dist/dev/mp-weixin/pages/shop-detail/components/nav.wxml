@@ -1,0 +1,1 @@
+<view class="tab _nav" bind:__l="__l"><view class="tab--left _div"><view class="nav__item nav__item--on _div">菜單</view><view class="nav__item _div">評價</view><view class="nav__item _div">商家</view></view><view class="tab--right _div"><view class="search _div"><image class="search__image _img" src alt></image>搜索</view></view></view>

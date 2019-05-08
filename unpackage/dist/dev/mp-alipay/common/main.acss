@@ -19,18 +19,19 @@
 /*每个页面公共css */
 
 
+
 .location{
 	
-	width:96%;
-	margin:auto;
+	/* width:96%;
+	margin:auto; */
 	font-weight:500;
 	margin-bottom:32rpx;
 }
 
 
 .search {
-  width: 96%;
-  margin: auto;
+  /* width: 96%;
+  margin: auto; */
   padding: 12rpx 0rpx;
   background-color: white;
 }
@@ -53,20 +54,19 @@
 }
 
 
-.quan{
-	position:relative;
-	bottom:0rpx;
-	left:92rpx;
-	/* width:40upx; */
-	height:20rpx;
-	padding: 8rpx 8rpx;
-	margin-left: 8rpx;
-	background-color: #f66;
-	color:white;
-	font-size:18rpx;
-	line-height:20rpx;
-	text-align:center;
-	border: 1px solid #f66;
+.quan {
+  position: relative;
+  bottom: 0rpx;
+  left: 92rpx;
+  /* width:40upx; */
+  height: 20rpx;
+  padding: 4rpx 4rpx;
+  margin-left: 8rpx;
+  background-color: #f66;
+  color: white;
+  font-size: 18rpx;
+  line-height: 20rpx;
+  text-align: center;
+  border: 1px solid #f66;
 }
-
 

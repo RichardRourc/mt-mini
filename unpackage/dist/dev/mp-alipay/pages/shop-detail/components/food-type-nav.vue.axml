@@ -1,0 +1,1 @@
+<template name="5b5f028a"><scroll-view class="_scroll-view type {{ h[ 0 ].rcl }}" scroll-y="true"><view a:for="{{ h[ 1 ].li }}" a:key="idx" a:for-item="item" a:for-index="idx" class="_div type--item type--item--on">{{ h[ 2 + '-' + (item_i2 !== undefined ? item_i2 : idx) ].t }}</view></scroll-view></template>

@@ -1,7 +1,7 @@
 
 .search {
-  width: 96%;
-  margin: auto;
+  /* width: 96%;
+  margin: auto; */
   padding: 12rpx 0rpx;
   background-color: white;
 }

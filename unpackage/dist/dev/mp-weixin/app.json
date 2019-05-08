@@ -1,6 +1,8 @@
 {
   "pages": [
-    "pages/index/index"
+    "pages/index/index",
+    "pages/shop-detail/index",
+    "pages/a/index"
   ],
   "subPackages": [],
   "window": {
@@ -13,6 +15,5 @@
     "location": "/components/location",
     "search": "/components/search",
     "full-redution": "/components/full-redution"
-  },
-  "sitemapLocation": "sitemap.json"
+  }
 }

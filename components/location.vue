@@ -20,8 +20,8 @@
 <style>
 	.location{
 		
-		width:96%;
-		margin:auto;
+		/* width:96%;
+		margin:auto; */
 		font-weight:500;
 		margin-bottom:32upx;
 	}
