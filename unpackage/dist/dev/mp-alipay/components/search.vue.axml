@@ -1,0 +1,1 @@
+<template name="3fd639ef"><view class="_view {{ h[ 0 ].rcl }}"><view class="_section search {{ h[ 1 ].cl }}"><view class="_section wrap"><view class="_i icon"></view><label a:for="{{ h[ 4 ].li }}" a:key="index" a:for-item="item" a:for-index="index" class="_span search-text">{{ h[ 5 + '-' + (item_i2 !== undefined ? item_i2 : index) ].t }}</label></view></view></view></template>

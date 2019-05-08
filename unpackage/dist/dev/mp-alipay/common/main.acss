@@ -1,0 +1,72 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*每个页面公共css */
+
+
+.location{
+	
+	width:96%;
+	margin:auto;
+	font-weight:500;
+	margin-bottom:32rpx;
+}
+
+
+.search {
+  width: 96%;
+  margin: auto;
+  padding: 12rpx 0rpx;
+  background-color: white;
+}
+.wrap {
+  padding: 18rpx 24rpx;
+  margin: 0rpx;
+  background-color: #eee;
+  border-radius: 12rpx;
+}
+.search-text {
+  color: #666;
+  margin-left: 12rpx;
+}
+.fixtop {
+  position: fixed;
+  top: 0rpx;
+  left: 2%;
+  z-index: 3;
+  width: 96%;
+}
+
+
+.quan{
+	position:relative;
+	bottom:0rpx;
+	left:92rpx;
+	/* width:40upx; */
+	height:20rpx;
+	padding: 8rpx 8rpx;
+	margin-left: 8rpx;
+	background-color: #f66;
+	color:white;
+	font-size:18rpx;
+	line-height:20rpx;
+	text-align:center;
+	border: 1px solid #f66;
+}
+
+

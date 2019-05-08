@@ -1,0 +1,1 @@
+<view bind:__l="__l"><view class="{{['search _section',topSearch]}}"><view class="wrap _section"><view class="icon _i"></view><block wx:for="{{searchText}}" wx:for-item="item" wx:for-index="index" wx:key="index"><label class="search-text _span">{{item}}</label></block></view></view></view>

@@ -1,0 +1,1 @@
+<view class="content" bind:__l="__l"><location location="{{location}}"></location><search searchText="{{searchText}}" topSearch="{{topSearch}}"></search><index-swiper foodType="{{foodType}}"></index-swiper><food-recommend foodType="{{foodType}}"></food-recommend><food-banner></food-banner><food-brand testData1="{{testData1}}"></food-brand><nearby-shop></nearby-shop></view>

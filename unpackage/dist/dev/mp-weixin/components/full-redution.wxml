@@ -1,0 +1,1 @@
+<view bind:__l="__l"><label class="quan _span">{{max+"减"+decrease}}</label></view>

@@ -1,0 +1,43 @@
+.content {
+  height: 400upx;
+  padding: 12upx 0upx;
+}
+.icon {
+  display: inline-block;
+  background-color: red;
+  width: 24upx;
+  height: 24upx;
+}
+.greater {
+  position: relative;
+  top: -4upx;
+  left: 5upx;
+}
+@font-face {
+  font-family: "iconfont";
+  src: url("../../commons/icon/iconfont.eot");
+  src: url("../../commons/icon/iconfont.eot?#iefix") format("embedded-opentype"),
+    url("../../commons/icon/iconfont.woff2") format("woff2"),
+    url("../../commons/icon/iconfont.woff") format("woff"),
+    url("../../commons/icon/iconfont.ttf") format("truetype"),
+    url("../../commons/icon/iconfont.svg#iconfont") format("svg");
+}
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.tab {
+  position: absolute;
+  top: 84%;
+  left: 25%;
+}
+.tab .choose {
+  display: inline-block;
+  margin-right: 8upx;
+  width: 20upx;
+  height: 10upx;
+  background-color: red;
+}

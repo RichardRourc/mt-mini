@@ -1,0 +1,1 @@
+<view class="_div" bind:__l="__l"><view class="banner _section"><image src="{{$root.m0}}" alt class="_img"></image><label class="banner__title _span">广告</label></view></view>

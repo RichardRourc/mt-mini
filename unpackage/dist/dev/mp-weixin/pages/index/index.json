@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "美团外卖",
+  "usingComponents": {
+    "index-swiper": "/pages/index/components/indexSwiper",
+    "food-recommend": "/pages/index/components/food-recommend",
+    "food-banner": "/pages/index/components/food__banner",
+    "food-brand": "/pages/index/components/food__brand",
+    "nearby-shop": "/pages/index/components/nearby-shop"
+  }
+}
