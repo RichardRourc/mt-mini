@@ -61,7 +61,7 @@
     methods: {
       a(e) {
         uni.navigateTo({
-        	url: "../a/index"
+        	url: "../shop-detail/index"
         })
       },
     },

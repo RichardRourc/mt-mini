@@ -2,16 +2,41 @@
   <footer class="shopcar">
     <div class="delivery--left">
       <i class="icon-image"></i>
-      <div class="other-money">另需配送費x元</div>
+      <div class="other-money">共￥ {{ totalPrice }}</div>
     </div>
     <div class="delivery--right">
-      <div class="money--start">x元起送</div>
+      <div class="money--start">数量{{ counts }}</div>
     </div>
   </footer>
 </template>
 
 <script>
-export default {};
+import { mapMutations } from 'vuex';
+
+export default {
+  props: {
+    foodList: {
+      type: Array
+    }
+  },
+  computed: {
+    totalPrice () {
+      return this.foodList.reduce((prev, current) => {
+        return prev + current.count * current.price;
+      }, 0)
+    },
+   
+    counts () {
+      const totalCount = this.foodList.reduce((prev, current) => {
+        return prev + current.count;
+      }, 0)
+
+      console.log('totalCount', totalCount)
+
+      return totalCount;
+    },
+  },
+};
 </script>
 
 <style lang="scss">

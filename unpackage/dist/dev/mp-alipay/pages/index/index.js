@@ -43,9 +43,24 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 var _default =
 {
-  props: ['foodType'],
+  props: ["foodType"],
   data: function data() {
     return {
       max: 12,
@@ -384,7 +399,7 @@ function a() {var arr = [];for (var i = 0; i < 10; i++) {var obj = { imgsrc: '',
   methods: {
     a: function a(e) {
       uni.navigateTo({
-        url: "../a/index" });
+        url: "../shop-detail/index" });
 
     } },
 
@@ -560,7 +575,7 @@ var render = function() {
                                 _fid: _fid
                               }
                             }),
-                            _c("full-redution", {
+                            _c("full-reduction", {
                               attrs: { _hid: 15, _fid: _fid, _cid: 0 }
                             })
                           ],
@@ -744,11 +759,13 @@ var render = function() {
                           attrs: { _hid: 10 }
                         },
                         [
-                          _c("full-redution", { attrs: { _hid: 11, _cid: 0 } }),
-                          _c("full-redution", {
+                          _c("full-reduction", {
+                            attrs: { _hid: 11, _cid: 0 }
+                          }),
+                          _c("full-reduction", {
                             attrs: { _hid: 1013, _cid: 1 }
                           }),
-                          _c("full-redution", {
+                          _c("full-reduction", {
                             attrs: { _hid: 2015, _cid: 2 }
                           })
                         ],

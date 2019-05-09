@@ -1,74 +1,74 @@
 
-.recommend{
-	position:relative;
-	width:96%;
-	margin:auto;
+.recommend {
+  position: relative;
+  width: 96%;
+  margin: auto;
 }
-.recommend .recommend-head .title{
-	font-size: 42rpx;
-	font-weight: 600;
+.recommend .recommend-head .title {
+  font-size: 42rpx;
+  font-weight: 600;
 }
-.recommend .recommend-head .food-recommend__title__more{
-	position:absolute;
-	top:5rpx;
-	right:0rpx;
-	font-size:24rpx;
-	color:#666;
+.recommend .recommend-head .food-recommend__title__more {
+  position: absolute;
+  top: 5rpx;
+  right: 0rpx;
+  font-size: 24rpx;
+  color: #666;
 }
-.recommend .recommend-head .more .dayu{
-	top:0rpx;
+.recommend .recommend-head .more .dayu {
+  top: 0rpx;
 }
-.food-ul{
-	/* border:1px solid red; */
-	padding:12rpx 0rpx; 
-	/* width:400%; */
-	white-space: nowrap;
+.food-ul {
+  /* border:1px solid red; */
+  padding: 12rpx 0rpx;
+  /* width:400%; */
+  white-space: nowrap;
 }
-.food-ul-li{
-	display:inline-block;
-	padding-right:12rpx;
+.food-ul-li {
+  display: inline-block;
+  padding-right: 12rpx;
 }
-.food-ul-li .food{
-	position:relative;
+.food-ul-li .food {
+  position: relative;
 }
-.food-ul-li .food image{
-	position:absolute;
+.food-ul-li .food image {
+  position: absolute;
 }
-.food-ul-li .food .food-image{
-	position:relative;
-	width:300rpx;
-	height:180rpx;
-	border-radius:12rpx;
+.food-ul-li .food .food-image {
+  position: relative;
+  width: 300rpx;
+  height: 180rpx;
+  border-radius: 12rpx;
 }
-.food-ul-li .food .image--wrap{
-	position:absolute;
-	bottom:0rpx;
+.food-ul-li .food .image--wrap {
+  position: absolute;
+  bottom: 0rpx;
 }
-.food-ul-li .food .shop{
-	/* position:relative; */
-	bottom:0rpx;
-	left:12rpx;
-	width:80rpx;
-	height:40rpx;
+.food-ul-li .food .shop {
+  /* position:relative; */
+  bottom: 0rpx;
+  left: 12rpx;
+  width: 80rpx;
+  height: 40rpx;
 }
-.food + view{
-	padding:8rpx;
+.food + view {
+  padding: 8rpx;
 }
-.reason{
-	font-size:32rpx;
-	color:#ccc;
+.reason {
+  font-size: 32rpx;
+  color: #ccc;
 }
-.food-recommend__more{
-	display:inline-block;
-	height:164rpx;
-	width:24rpx;
-	padding:8rpx 12rpx;
-	color:#ccc;
-	border:1px solid #ccc;
-	white-space:normal;
-	font-size:32rpx;
-	color:#ccc;
-	vertical-align:top;
-	border-radius:12rpx;
+.food-recommend__more {
+  display: inline-block;
+  height: 164rpx;
+  width: 24rpx;
+  padding: 8rpx 12rpx;
+  color: #ccc;
+  border: 1px solid #ccc;
+  white-space: normal;
+  font-size: 32rpx;
+  color: #ccc;
+  vertical-align: top;
+  border-radius: 12rpx;
 }
 

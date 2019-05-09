@@ -8,7 +8,20 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; //
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;
+
+
+
+
+
+
+
+
+
+
+
+
+var _vuex = __webpack_require__(/*! vuex */ "./node_modules/vuex/dist/vuex.esm.js"); //
 //
 //
 //
@@ -20,8 +33,18 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 //
 //
 //
-var _default =
-{};exports.default = _default;
+var _default = { props: { foodList: { type: Array } }, computed: { totalPrice: function totalPrice() {return this.foodList.reduce(function (prev, current) {return prev + current.count * current.price;}, 0);
+    },
+
+    counts: function counts() {
+      var totalCount = this.foodList.reduce(function (prev, current) {
+        return prev + current.count;
+      }, 0);
+
+      console.log('totalCount', totalCount);
+
+      return totalCount;
+    } } };exports.default = _default;
 
 /***/ }),
 

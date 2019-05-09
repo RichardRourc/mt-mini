@@ -71,7 +71,7 @@ var foodType = a();var _default =
   methods: {
     a: function a(e) {
       uni.navigateTo({
-        url: "../a/index" });
+        url: "../shop-detail/index" });
 
     } },
 

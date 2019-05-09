@@ -1,7 +1,8 @@
 {
   "usingComponents": {
     "food-type-nav": "/pages/shop-detail/components/food-type-nav",
-    "shopcar": "/pages/shop-detail/components/shopcar"
+    "shopcar": "/pages/shop-detail/components/shopcar",
+    "cart-control": "/pages/shop-detail/components/cart-control"
   },
   "component": true
 }

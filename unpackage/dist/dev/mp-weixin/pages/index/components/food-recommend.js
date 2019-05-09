@@ -43,9 +43,24 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 var _default =
 {
-  props: ['foodType'],
+  props: ["foodType"],
   data: function data() {
     return {
       max: 12,

@@ -8,70 +8,127 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
-function a() {
-  var arr = [];
-  for (var i = 0; i < 20; i++) {
-    arr[i] = i + "餐";
-  }
-  return arr;
-}
-var type1 = a();var goodsTypeNav = function goodsTypeNav() {return Promise.resolve(/*! import() */).then(__webpack_require__.bind(null, /*! ./food-type-nav */ "D:\\projects\\meituan\\pages\\shop-detail\\components\\food-type-nav.vue"));};var shopcar = function shopcar() {return __webpack_require__.e(/*! import() | pages/shop-detail/components/shopcar */ "pages/shop-detail/components/shopcar").then(__webpack_require__.bind(null, /*! ./shopcar */ "D:\\projects\\meituan\\pages\\shop-detail\\components\\shopcar.vue"));};var _default =
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;
 
 
 
 
-{
-  props: ["type", "foodDatas"],
-  data: function data() {
-    return {
-      type1: type1 };
 
-  },
-  components: {
-    "food-type-nav": goodsTypeNav,
-    shopcar: shopcar },
 
-  methods: {
-    scroll: function scroll(e) {
-      console.log(e.target);
-    } }
 
-  // onLoad	() {
-  // 	this.type = type;
-  // }
-};exports.default = _default;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var _vuex = __webpack_require__(/*! vuex */ "./node_modules/vuex/dist/vuex.esm.js");function _objectSpread(target) {for (var i = 1; i < arguments.length; i++) {var source = arguments[i] != null ? arguments[i] : {};var ownKeys = Object.keys(source);if (typeof Object.getOwnPropertySymbols === 'function') {ownKeys = ownKeys.concat(Object.getOwnPropertySymbols(source).filter(function (sym) {return Object.getOwnPropertyDescriptor(source, sym).enumerable;}));}ownKeys.forEach(function (key) {_defineProperty(target, key, source[key]);});}return target;}function _defineProperty(obj, key, value) {if (key in obj) {Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true });} else {obj[key] = value;}return obj;} //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+var NUM = 20;function createTypes() {var arr = [];for (var i = 0; i < NUM; i++) {arr[i] = i + "餐";}return arr;}var type1 = createTypes();function b() {var arr1 = [];for (var i = 0; i < NUM; i++) {arr1[i] = {};arr1[i].id = "id-".concat(i);arr1[i].name = "豬腸粉";arr1[i].desc = "好吃的豬腸粉";arr1[i].nice = 90;arr1[i].sell = 92;arr1[i].price = 23;arr1[i].count = 0;}return arr1;}var foodDatas = b();var goodsTypeNav = function goodsTypeNav() {return __webpack_require__.e(/*! import() | pages/shop-detail/components/food-type-nav */ "pages/shop-detail/components/food-type-nav").then(__webpack_require__.bind(null, /*! ./food-type-nav */ "D:\\projects\\meituan\\pages\\shop-detail\\components\\food-type-nav.vue"));};var shopcar = function shopcar() {return __webpack_require__.e(/*! import() | pages/shop-detail/components/shopcar */ "pages/shop-detail/components/shopcar").then(__webpack_require__.bind(null, /*! ./shopcar */ "D:\\projects\\meituan\\pages\\shop-detail\\components\\shopcar.vue"));};var cartControl = function cartControl() {return __webpack_require__.e(/*! import() | pages/shop-detail/components/cart-control */ "pages/shop-detail/components/cart-control").then(__webpack_require__.bind(null, /*! ./cart-control.vue */ "D:\\projects\\meituan\\pages\\shop-detail\\components\\cart-control.vue"));};var _default = { props: ["type"], data: function data() {return { type1: type1, foodDatas: foodDatas };}, components: { "food-type-nav": goodsTypeNav, shopcar: shopcar, "cart-control": cartControl }, methods: _objectSpread({}, (0, _vuex.mapMutations)(["vxaddCart", "vxdecreaseCart"]), { addCart: function addCart() {}, decreaseCart: function decreaseCart() {}, abc: function abc() {console.log(this.item);}, updateItem: function updateItem(idx, item) {console.log(11111111111, idx, item);foodDatas.splice(idx, 1, item);} }), onShow: function onShow() {// console.log(this.item)
+  } };exports.default = _default;
 
 /***/ }),
 

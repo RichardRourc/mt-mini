@@ -25,52 +25,26 @@
 /* 透明度 */
 /* 文章场景相关 */
 /* 很小的字 */
-.foods {
-  position: relative;
-}
-.foods--list {
-  position: relative;
-  display: inline-block;
-  width: 69%;
-}
-.type--fix {
-  padding: 8rpx 16rpx;
-  color: #666;
-  font-size: 28rpx;
-}
-.foods--show {
-  display: inline-block;
-  height: 913rpx;
-  overflow: hidden;
-  width: 115%;
-}
-.foods--show__item__list {
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
+.foods__price {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin-bottom: 24rpx;
-  width: 95%;
-}
-.foods--detail__image {
-  background-color: #f66;
-  width: 30%;
-  height: 80rpx;
-}
-.foods__info {
-  width: 68%;
-  font-size: 24rpx;
-}
-.foods--name {
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   font-size: 28rpx;
-  font-weight: bold;
+  color: #f00;
+}
+.foods__button {
+  width: 36rpx;
+  height: 40rpx;
+  font-size: 32rpx;
+  color: #000;
+  background-color: #bbb;
+  border-radius: 24rpx;
+  text-align: center;
+  line-height: 40rpx;
 }
 

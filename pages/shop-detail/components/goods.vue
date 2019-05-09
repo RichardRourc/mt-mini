@@ -1,66 +1,108 @@
 <template>
   <section class="foods">
-    <food-type-nav :type1="type1"/>
+    <food-type-nav :type1="type1" />
 
     <div class="foods--list">
       <div class="type--fix">{{ type[0] }}</div>
 
-      <scroll-view class="foods--show" @scroll="scroll" scroll-y="true">
-        <div class="foods--show__item" v-for="(item,idx) in type" :key="idx">
-          {{ item }}
-          <div class="foods--show__item__list" v-for="(item,idx) in foodDatas" :key="idx">
-            <img class="foods--detail__image" src alt>
+      <scroll-view
+        class="foods--show"
+        @scroll="scroll"
+        scroll-y="true"
+      >
+        <div
+          class="foods--show__item"
+          v-for="( item1, idx1 )  in type"
+          :key="idx1"
+        >
+          {{ item1 }}
+          <div
+            class="foods--show__item__list"
+            v-for="( item, idx ) in foodDatas"
+            :key="idx"
+          >
+            <div class="foods--detail__image"></div>
 
             <div class="foods__info">
               <div class="foods--name">{{ item.name }}</div>
               <div class="foods__desc">{{ item.desc }}</div>
-              <div class="foods__sell">月售{{ item.sell }} 贊{{ item.nice }}</div>
-              <div class="foods__price">
-                ￥ {{ item.price }}
-                <div class="foods__plus">+</div>
-              </div>
+              <div
+                class="foods__sell"
+                @click="abc"
+              >月售{{ item.sell }} 贊{{ item.nice }}</div>
+              <cart-control :item="item" @update-item="updateItem(idx, $event)" />
+              <!-- {{ item }} -->
             </div>
           </div>
         </div>
       </scroll-view>
     </div>
 
-    <shopcar />
+    <shopcar :food-list="foodDatas" />
   </section>
 </template>
 
 <script>
-function a() {
-  let arr = [];
-  for (let i = 0; i < 20; i++) {
+const NUM = 20;
+
+function createTypes() {
+  const arr = [];
+  for (let i = 0; i < NUM; i++) {
     arr[i] = i + "餐";
   }
   return arr;
 }
-let type1 = a();
+const type1 = createTypes();
+
+function b() {
+  const arr1 = [];
+  for (let i = 0; i < NUM; i++) {
+    arr1[i] = {};
+    arr1[i].id = `id-${i}`;
+    arr1[i].name = "豬腸粉";
+    arr1[i].desc = "好吃的豬腸粉";
+    arr1[i].nice = 90;
+    arr1[i].sell = 92;
+    arr1[i].price = 23;
+    arr1[i].count = 0;
+  }
+  return arr1;
+}
+const foodDatas = b();
 
 import goodsTypeNav from "./food-type-nav";
 import shopcar from "./shopcar";
+import cartControl from "./cart-control.vue";
+import { mapState, mapMutations } from "vuex";
 
 export default {
-  props: ["type", "foodDatas"],
+  props: ["type"],
   data() {
     return {
-      type1: type1
+      type1: type1,
+      foodDatas,
     };
   },
   components: {
     "food-type-nav": goodsTypeNav,
-    shopcar: shopcar
+    shopcar: shopcar,
+    "cart-control": cartControl
   },
   methods: {
-    scroll(e) {
-      console.log(e.target)
+    ...mapMutations(["vxaddCart", "vxdecreaseCart"]),
+    addCart() {},
+    decreaseCart() {},
+    abc() {
+      console.log(this.item);
     },
+    updateItem(idx, item) {
+      console.log(11111111111, idx, item)
+      foodDatas.splice(idx, 1, item);
+    }
   },
-  // onLoad	() {
-  // 	this.type = type;
-  // }
+  onShow() {
+    // console.log(this.item)
+  }
 };
 </script>
 
@@ -109,19 +151,5 @@ export default {
 .foods--name {
   font-size: $uni-font-size-base;
   font-weight: bold;
-}
-.foods__price {
-  display: flex;
-  justify-content: space-between;
-  font-size: $uni-font-size-base;
-  color: #f00;
-  // position: relative;
-}
-.foods__plus {
-  font-size: $uni-font-size-lg;
-  color: #000;
-  background-color: #bbb;
-	border-radius: 24upx;
-	padding: 8upx 12upx;
 }
 </style>

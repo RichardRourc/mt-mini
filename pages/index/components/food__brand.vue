@@ -12,9 +12,9 @@
 				  噗噗噗
 				</div>
 				<div class="brand__head__bottom__right__price">
-				  <full-redution></full-redution>
-				  <full-redution></full-redution>
-				  <full-redution></full-redution>
+				  <full-reduction></full-reduction>
+				  <full-reduction></full-reduction>
+				  <full-reduction></full-reduction>
 				</div>
 			  </div>
 			</section>
